@@ -2,6 +2,7 @@
 const faq = {
     registration: {
         title: "Registration",
+        description: "Frequently asked questions about the MetEd registration system.",
         questions: [
             {
                 question: "Why are we asking you to register?",
@@ -30,6 +31,7 @@ const faq = {
     },
     accountProblems: {
         title: "Login and User Account Problems",
+        description: "Frequently asked questions about login and account problems.",
         questions: [
             {
                 question: "My account doesn't seem to exist",
@@ -76,6 +78,7 @@ const faq = {
     },
     metedLessons: {
         title: "MetEd Lessons",
+        description: "Questions about MetEd Lessons, Courses, Quizzes, Certificates, and other education and training resources.",
         questions: [
             {
                 question: "Saving and accessing download versions",
@@ -126,6 +129,7 @@ const faq = {
     },
     supervisors: {
         title: "Instructors and Learner Supervisors",
+        description: "Frequently asked questions about supervising other learners on MetEd.",
         questions: [
             {
                 question: "How can I supervise progress of my K-12 students on MetEd?",
@@ -161,6 +165,11 @@ const faq = {
             }
         ]
     }
+};
+
+export const additionalComponents = {
+    title: "Frequently Asked Questions",
+    backToTop: "Back to top"
 };
 
 export default faq;
